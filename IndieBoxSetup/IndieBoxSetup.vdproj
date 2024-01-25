@@ -141,7 +141,7 @@
             "SourcePath" = "8:..\\Gavilya\\bin\\Debug\\net6.0-windows\\IndieBox.exe"
             "TargetName" = "8:IndieBox.exe"
             "Tag" = "8:"
-            "Folder" = "8:_AC43657ACA2243799247D1103D85A278"
+            "Folder" = "8:_77BD30B578924051B1CA821971F2EB04"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -161,7 +161,7 @@
             "SourcePath" = "8:..\\..\\..\\..\\Downloads\\designnew.ico"
             "TargetName" = "8:designnew.ico"
             "Tag" = "8:"
-            "Folder" = "8:_AC43657ACA2243799247D1103D85A278"
+            "Folder" = "8:_77BD30B578924051B1CA821971F2EB04"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -195,7 +195,7 @@
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_AC43657ACA2243799247D1103D85A278"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFiles64Folder][Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -216,6 +216,28 @@
                 {
                 }
             }
+            "{1525181F-901A-416C-8A58-119130FE478E}:_FB56EF1A9BAE414E906D011609725964"
+            {
+            "Name" = "8:#1915"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:AppDataFolder"
+                "Folders"
+                {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_77BD30B578924051B1CA821971F2EB04"
+                    {
+                    "Name" = "8:IndieBox"
+                    "AlwaysCreate" = "11:TRUE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_85DD8CE7A27945F596E08A53AB1D2B3B"
+                        "Folders"
+                        {
+                        }
+                    }
+                }
+            }
         }
         "LaunchCondition"
         {
@@ -233,7 +255,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Indie Box"
         "ProductCode" = "8:{FCD9F8C1-3B15-4108-9522-EDFC98602456}"
-        "PackageCode" = "8:{28952E6C-8883-4DD0-99DA-89D59CC61753}"
+        "PackageCode" = "8:{5938B09B-C90B-4FAB-9D95-DF596FB0D2D7}"
         "UpgradeCode" = "8:{92ECE63B-EE88-43BC-A2F8-118C66782ECC}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -254,7 +276,7 @@
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
-        "TargetPlatform" = "3:0"
+        "TargetPlatform" = "3:1"
         "PreBuildEvent" = "8:"
         "PostBuildEvent" = "8:"
         "RunPostBuildEvent" = "3:0"
@@ -363,7 +385,7 @@
             "Transitive" = "11:FALSE"
             "Target" = "8:_4921C45D603B4D3785F1FCB058877654"
             "Folder" = "8:_77A8C21240074DB5BF1BA57A5CD0E2D0"
-            "WorkingFolder" = "8:_AC43657ACA2243799247D1103D85A278"
+            "WorkingFolder" = "8:_77BD30B578924051B1CA821971F2EB04"
             "Icon" = "8:"
             "Feature" = "8:"
             }
@@ -377,7 +399,7 @@
             "Transitive" = "11:FALSE"
             "Target" = "8:_4921C45D603B4D3785F1FCB058877654"
             "Folder" = "8:_B8B535D4F0034722A06F6B736D23235B"
-            "WorkingFolder" = "8:_AC43657ACA2243799247D1103D85A278"
+            "WorkingFolder" = "8:_77BD30B578924051B1CA821971F2EB04"
             "Icon" = "8:_897E79D0D1204141BCBF85C40256F93E"
             "Feature" = "8:"
             }
@@ -785,7 +807,7 @@
             "SourcePath" = "8:..\\Gavilya\\obj\\Debug\\net6.0-windows\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_AC43657ACA2243799247D1103D85A278"
+            "Folder" = "8:_77BD30B578924051B1CA821971F2EB04"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -813,7 +835,7 @@
             "SourcePath" = "8:..\\Gavilya\\obj\\Debug\\net6.0-windows\\IndieBox.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_AC43657ACA2243799247D1103D85A278"
+            "Folder" = "8:_77BD30B578924051B1CA821971F2EB04"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
