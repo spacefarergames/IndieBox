@@ -10,7 +10,7 @@
     <img src="https://u93e46.n3cdn1.secureserver.net/wp-content/uploads/2024/01/designnew.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h1 align="center">Gavilya</h3>
+  <h1 align="center">Indie Box</h3>
 
   <p align="center">
     IndieBox is provided by Spacefarer R&D that allows you to download and manage games.
