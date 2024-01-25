@@ -14,6 +14,7 @@
 
   <p align="center">
     IndieBox is provided by Spacefarer R&D that allows you to download and manage games.
+    It's core game library and management functionality is forked from Gavilya, a MIT licensed software. Indie Box adds the Spacefarer Store, Streaming service, download service, account management service, and the submission tool for Indie Game Devs.
     <br />
     <a href="https://bit.ly/Gavilya"><strong>Download »</strong></a>
     <br />
@@ -24,53 +25,15 @@
 ![image](https://u93e46.n3cdn1.secureserver.net/wp-content/uploads/2024/01/IndieBoxBlurb-1024x381.png))
 
 
-Gavilya is a user-friendly game launcher built using C# and WPF, following the MVVM (Model-View-ViewModel) architectural pattern. The launcher aims to simplify the process of managing and launching games from various sources, providing an organized and personalized gaming experience.
+Indie Box is a user-friendly game launcher / game streaming / store / download app that provides an all in once location for indie games and other titles.
 [Click here](https://spacefarergames.com/indiebox/)) to visit Indie Box's website.
-
-## Features
-
-Gavilya is a user-friendly game launcher built using C# .NET 6 and WPF, designed to streamline the gaming experience by consolidating games from various sources into a single, accessible platform. With its intuitive interface and diverse set of features, Gavilya offers gamers a convenient and organized way to manage and launch their favorite games.
-
-1. **Game Source Integration:**
-   Gavilya supports a wide range of game sources, including Steam, UWP (Universal Windows Platform), and Win32 games. This compatibility ensures that users can effortlessly add and manage their games, regardless of their origin.
-
-2. **RAWG.io Integration:**
-   Gavilya incorporates the power of the RAWG.io database, allowing users to fetch essential game information, such as cover art, release dates, and descriptions, directly within the launcher. This integration enhances the user experience by providing valuable context for each game.
-
-3. **Profiles:**
-   With Gavilya's profile feature, users can create multiple profiles, each tailored to a specific set of games or preferences. This enables effortless switching between different gaming setups or genres without the need for manual reorganization.
-
-4. **Themes:**
-   Gavilya lets users personalize their launcher with a variety of themes, enabling them to choose a visual style that resonates with their gaming aesthetic. Themes offer a fresh look to the launcher and enhance the overall gaming atmosphere.
-
-5. **Game Tags:**
-   Organizing games is made easier with the inclusion of game tags. Users can assign custom tags to their games, such as genres or play styles, facilitating quick and intuitive navigation through their game library.
-
-6. **Multiple Views:**
-   Gavilya offers different viewing options for users to explore their game collection. These include "Recent" for recently played games, "List" for a comprehensive overview, and "Tags" for grouping games based on assigned tags. This flexibility allows users to choose the view that best suits their needs.
-
-7. **Search Functionality:**
-   Searching for specific games within a large library is effortless with Gavilya's built-in search feature. Users can quickly locate games by entering keywords or partial names, saving time and ensuring they get to gaming faster.
-
-8. **Statistic Overview:**
-   Gavilya provides users with valuable insights into their gaming habits. This includes statistics such as total playtime for each game, as well as identifying the most frequently played games. This overview helps users keep track of their gaming history and preferences.
-
-9. **Top Games Highlight:**
-   Gavilya's statistic overview highlights the top games based on playtime or user-defined criteria. This feature enables users to discover their favorite and most-played games easily.
-   
-**_And more..._**
-
-In conclusion, Gavilya presents itself as a user-centric game launcher, combining simplicity with a powerful set of features. By seamlessly integrating games from various sources, offering profile support, providing customization options, and supplying insightful statistics, Gavilya elevates the gaming experience for enthusiasts who appreciate organization and efficiency. [Click here](https://gavilya.leocorporation.dev) to visit Gavilya's website and explore its features firsthand.
-
-## Download
-[Click here](https://bit.ly/Gavilya) to download Gavilya.
 
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-1. **Fork the Repository**: Start by forking the Gavilya repository to your GitHub account.
+1. **Fork the Repository**: Start by forking the Indie Box repository to your GitHub account.
 
-2. **Clone the Fork**: Clone your forked repository to your local machine using `git clone https://github.com/your-username/Gavilya.git`.
+2. **Clone the Fork**: Clone your forked repository to your local machine using `git clone https://github.com/your-username/IndieBox.git`.
 
 3. **Create a Branch**: Create a new branch for your contribution using a descriptive name. For example, `feature/new-theme` or `bugfix/issue-123`.
 
@@ -80,7 +43,7 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 6. **Commit and Push**: Commit your changes and push them to your forked repository.
 
-7. **Create a Pull Request (PR)**: Go to the original Gavilya repository and create a new pull request. Provide a clear title, description, and link to any related issues.
+7. **Create a Pull Request (PR)**: Go to the original Indie Box repository and create a new pull request. Provide a clear title, description, and link to any related issues.
 
 8. **Code Review**: The maintainers will review your PR, provide feedback, and possibly suggest changes.
 
@@ -94,15 +57,6 @@ Please note that contributions should align with the project's scope and follow 
   - .NET Desktop Developpement
   - Git
 - .NET 6 (*.NET 5 is also recommanded*)
-- Inno Setup (*optionnal*)
-
-### Branches
-This Git repo has always two branches:
-
-| Name | Release | Description |
-| :--: | :-----: | :---------: |
-| `main` | ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Leo-Corporation/Gavilya) | Stable versions |
-| `vNext` | ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Leo-Corporation/Gavilya?include_prereleases) | Next version of Gavilya (unstable) |
 
 > Note: Other branches can also - of course - exist.
 
@@ -112,4 +66,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Visit the [Gavilya website](https://gavilya.leocorporation.dev) to learn more about the game launcher.
+Visit the [Indie Box Website](https://spacefarergames.com/indiebox/) to learn more about Indie Box.
