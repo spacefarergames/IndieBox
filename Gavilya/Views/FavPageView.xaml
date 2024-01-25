@@ -15,6 +15,16 @@
     Foreground="{DynamicResource Foreground}"
     mc:Ignorable="d">
     <Grid>
-        <Wpf:WebView2 Source="https://spacefarergames.com/indieboxstore/"/>
+        <Wpf:WebView2 Name="MyWebView"  Source="https://spacefarergames.com/indieboxstore/" Margin="0,23,0,0"/>
+        <Button Content="&lt;" HorizontalAlignment="Left" Margin="10,-5,0,0" Click="OnClick1" VerticalAlignment="Top" Background="#00000000" Opacity="0.995" Foreground="White" FontSize="22">
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+        </Button>
+        <Button Content="&gt;" HorizontalAlignment="Left" Margin="33,-5,0,0" Click="OnClick2" VerticalAlignment="Top" Background="#00000000" Opacity="0.995" Foreground="White" FontSize="22">
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+        </Button>
     </Grid>
 </UserControl>

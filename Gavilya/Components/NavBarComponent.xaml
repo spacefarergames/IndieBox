@@ -93,7 +93,7 @@
                     Content="{x:Static lang:Resources.Favorites}"
                     Foreground="{DynamicResource Foreground}" />
             </RadioButton.ToolTip>
-            <Image Height="30" Width="40" Source="/Assets/designnew.png"/>
+            <Image Height="30" Width="40" Source="/Assets/shopping-bag-2-32.png"/>
         </RadioButton>
         <RadioButton
             x:Name="RecentTabBtn"

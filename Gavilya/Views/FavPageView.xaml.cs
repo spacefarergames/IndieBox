@@ -22,6 +22,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
 */
 
+using Microsoft.Web.WebView2.WinForms;
+using System.Windows;
 using System.Windows.Controls;
 
 namespace Gavilya.Views
@@ -35,5 +37,14 @@ namespace Gavilya.Views
 		{
 			InitializeComponent();
 		}
-	}
+
+        void OnClick1(object sender, RoutedEventArgs e)
+		{
+			MyWebView.GoBack();
+		}
+        void OnClick2(object sender, RoutedEventArgs e)
+        {
+            MyWebView.GoForward();
+        }
+    }
 }

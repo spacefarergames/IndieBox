@@ -30,6 +30,7 @@
     <None Remove="Assets\Gavilya.png" />
     <None Remove="Assets\recentGames.png" />
     <None Remove="Assets\selectGames.png" />
+    <None Remove="Assets\shopping-bag-2-32.png" />
     <None Remove="Assets\Steam.png" />
     <None Remove="Fonts\FluentSystemIcons-Filled.ttf" />
     <None Remove="Fonts\FluentSystemIcons-Regular.ttf" />
@@ -82,6 +83,7 @@
     <Resource Include="Assets\selectGames.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="Assets\shopping-bag-2-32.png" />
     <Resource Include="Assets\Steam.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>

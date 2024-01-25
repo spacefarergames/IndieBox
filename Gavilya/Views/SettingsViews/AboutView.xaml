@@ -31,8 +31,8 @@
             VerticalAlignment="Center">
             <Image
                 Name="Logo"
-                Width="100"
-                Source="/Assets/designnew.png" />
+                Width="201"
+                Source="/Assets/designnew.png" Height="199" />
             <TextBlock
                 FontSize="17"
                 FontWeight="ExtraBold"
@@ -63,7 +63,7 @@
                     d:Text="Up to date."
                     Text="Up to date." />
             </StackPanel>
-            <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <Button
                     x:Name="LicenseBtn"
                     Margin="10 0 0 0"
