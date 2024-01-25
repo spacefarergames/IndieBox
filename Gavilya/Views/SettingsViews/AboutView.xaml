@@ -32,19 +32,19 @@
             <Image
                 Name="Logo"
                 Width="100"
-                Source="..\..\Assets\Gavilya.png" />
+                Source="/Assets/designnew.png" />
             <TextBlock
                 FontSize="17"
                 FontWeight="ExtraBold"
                 Foreground="{DynamicResource Foreground}"
-                Text="{x:Static lang:Resources.AppName}"
+                Text="Indie Box"
                 TextAlignment="Center" />
             <TextBlock
                 x:Name="VersionTxt"
-                d:Text="4.0.0"
+                d:Text="100.0.1"
                 FontSize="12"
                 Foreground="{DynamicResource Foreground}"
-                Text="{Binding Version}"
+                Text="100.0.1"
                 TextAlignment="Center" />
             <StackPanel
                 Margin="0 0 0 10"
@@ -60,31 +60,10 @@
                     Text="{Binding StatusIcon}" />
                 <TextBlock
                     x:Name="StatusTxt"
-                    d:Text="Status message here"
-                    Text="{Binding StatusMessage}" />
+                    d:Text="Up to date."
+                    Text="Up to date." />
             </StackPanel>
             <StackPanel Orientation="Horizontal">
-                <Button
-                    Name="UpdateBtn"
-                    Padding="5"
-                    Background="{DynamicResource Background2}"
-                    Command="{Binding UpdateCommand}"
-                    Cursor="Hand"
-                    FontSize="14"
-                    FontWeight="ExtraBold"
-                    Foreground="{DynamicResource Foreground}"
-                    Style="{StaticResource RegularButton}">
-                    <StackPanel Orientation="Horizontal">
-                        <TextBlock
-                            Margin="0 0 10 0"
-                            HorizontalAlignment="Center"
-                            VerticalAlignment="Center"
-                            FontFamily="..\..\Fonts\#FluentSystemIcons-Regular"
-                            FontWeight="Regular"
-                            Text="&#xF191;" />
-                        <TextBlock Text="{x:Static lang:Resources.CheckForUpdates}" />
-                    </StackPanel>
-                </Button>
                 <Button
                     x:Name="LicenseBtn"
                     Margin="10 0 0 0"

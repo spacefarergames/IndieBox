@@ -1,10 +1,10 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <SolidColorBrush x:Key="Background" Color="#000014" />
-    <SolidColorBrush x:Key="Background2" Color="#141428" />
+    <SolidColorBrush x:Key="Background" Color="#FF0D0014" />
+    <SolidColorBrush x:Key="Background2" Color="#FF1F1428" />
     <SolidColorBrush x:Key="Foreground" Color="White" />
-    <SolidColorBrush x:Key="Accent" Color="#6600FF" />
-    <SolidColorBrush x:Key="DarkAccent" Color="#5200CC" />
-    <SolidColorBrush x:Key="SelectedBackground" Color="#28283C" />
+    <SolidColorBrush x:Key="Accent" Color="#FF9400FF" />
+    <SolidColorBrush x:Key="DarkAccent" Color="#FF6400CC" />
+    <SolidColorBrush x:Key="SelectedBackground" Color="#FF390D3E" />
     <SolidColorBrush x:Key="Gray" Color="#C6C6C6" />
     <SolidColorBrush x:Key="LightForeground" Color="#64648C" />
     <SolidColorBrush x:Key="HoverForeground" Color="White" />

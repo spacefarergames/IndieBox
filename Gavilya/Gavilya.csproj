@@ -7,20 +7,26 @@
     <UseWPF>true</UseWPF>
     <UseWindowsForms>True</UseWindowsForms>
     <ApplicationManifest>app.manifest</ApplicationManifest>
-    <Title>Gavilya</Title>
-    <Version>4.3.0.2312</Version>
-    <Authors>Léo Corporation</Authors>
-    <Description>Gavilya is a simple game launcher for Windows.</Description>
-    <Copyright>© 2023</Copyright>
-    <PackageProjectUrl>gavilya.leocorporation.dev</PackageProjectUrl>
-    <PackageIcon>Gavilya.png</PackageIcon>
-    <RepositoryUrl>https://github.com/Leo-Corporation/Gavilya</RepositoryUrl>
-    <ApplicationIcon>Gavilya.ico</ApplicationIcon>
+    <Title>Indie Box</Title>
+    <Version>100.0.1</Version>
+    <Authors>Spacefarer R&amp;D</Authors>
+    <Description>Indie Box provides quality indie titles for PC owners.</Description>
+    <Copyright>© 2024 Spacefarer R&amp;D</Copyright>
+    <PackageProjectUrl>https://www.spacefarergames.com</PackageProjectUrl>
+    <PackageIcon>designnew.png</PackageIcon>
+    <RepositoryUrl>https://github.com/spacefarergames</RepositoryUrl>
+    <ApplicationIcon>designnew.ico</ApplicationIcon>
+    <Company>Spacefarer R&amp;D</Company>
+    <Product>Indie Box</Product>
+    <AssemblyName>IndieBox</AssemblyName>
+    <AssemblyVersion>100.0.1</AssemblyVersion>
+    <FileVersion>100.0.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="Assets\addGamesWelcome.png" />
     <None Remove="Assets\DefaultPP.png" />
+    <None Remove="Assets\designnew.png" />
     <None Remove="Assets\Gavilya.png" />
     <None Remove="Assets\recentGames.png" />
     <None Remove="Assets\selectGames.png" />
@@ -34,7 +40,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="Gavilya.ico" />
+    <Resource Include="Assets\designnew.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="designnew.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -47,10 +56,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="..\..\..\..\Downloads\designnew.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="..\.editorconfig" Link=".editorconfig" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.2210.55" />
     <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.77" />
     <PackageReference Include="MouseKeyHook" Version="5.7.1" />
     <PackageReference Include="PeyrSharp.Core" Version="1.10.0.2310" />
@@ -110,15 +124,9 @@
     <EmbeddedResource Update="Properties\Resources.en-US.resx">
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Properties\Resources.fr-FR.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Update="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Properties\Resources.zh-CN.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
   </ItemGroup>
 

@@ -297,19 +297,6 @@ public class MainViewModel : ViewModelBase
 
 	private async void CheckUpdateOnStart()
 	{
-		if (!CurrentSettings.UpdatesAvNotification) return;
-		System.Windows.Forms.NotifyIcon notifyIcon = new();
-
-		if (await Internet.IsAvailableAsync())
-		{
-			notifyIcon.Icon = System.Drawing.Icon.ExtractAssociatedIcon(AppDomain.CurrentDomain.BaseDirectory + @"\Gavilya.exe");
-
-			if (Update.IsAvailable(await Update.GetLastVersionAsync(Context.LastVersionLink), Context.Version))
-			{
-				notifyIcon.Visible = true; // Show
-				notifyIcon.ShowBalloonTip(5000, Properties.Resources.MainWindowTitle, Properties.Resources.UpdateAvMessageNotify, System.Windows.Forms.ToolTipIcon.Info);
-				notifyIcon.Visible = false; // Hide
-			}
-		}
+		//Void update
 	}
 }

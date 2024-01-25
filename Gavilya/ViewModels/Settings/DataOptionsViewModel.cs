@@ -56,7 +56,7 @@ public class DataOptionsViewModel : ViewModelBase
 			_profiles.Save();
 
 			MessageBox.Show(Properties.Resources.GavilyaNeedsRestartChanges, Properties.Resources.ResetSettings, MessageBoxButton.OK, MessageBoxImage.Information);
-			Process.Start(Directory.GetCurrentDirectory() + @"\Gavilya.exe");
+			Process.Start(Directory.GetCurrentDirectory() + @"\IndieBox.exe");
 			Environment.Exit(0); // Quit
 		}
 	}

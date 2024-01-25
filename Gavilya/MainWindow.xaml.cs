@@ -34,4 +34,9 @@ public partial class MainWindow : Window
 	{
 		InitializeComponent();
 	}
+
+    private void NavBarComponent_Loaded(object sender, RoutedEventArgs e)
+    {
+
+    }
 }

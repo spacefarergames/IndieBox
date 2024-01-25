@@ -27,7 +27,7 @@
                 HorizontalAlignment="Center"
                 FontSize="13"
                 Foreground="{DynamicResource Foreground}"
-                Text="{x:Static lang:Resources.ReadyFirstRun}"
+                Text="Indie Box is now ready to use."
                 TextWrapping="Wrap" />
         </StackPanel>
 

@@ -15,20 +15,20 @@
             Margin="10"
             HorizontalAlignment="Center"
             VerticalAlignment="Center">
-            <Image Width="150" Source="..\..\Gavilya.png" />
+            <Image Width="150" Source="/designnew.png" />
             <TextBlock
                 HorizontalAlignment="Center"
                 FontSize="24"
                 FontWeight="ExtraBold"
                 Foreground="{DynamicResource Foreground}"
-                Text="{x:Static lang:Resources.Welcome}" />
+                Text="Welcome to Indie Box" />
             <TextBlock
                 HorizontalAlignment="Center"
                 FontSize="14"
                 Foreground="{DynamicResource Foreground}"
-                Text="{x:Static lang:Resources.GameGathered}" />
+                Text="Your indie game central." />
 
-            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Visibility="Collapsed">
                 <ComboBox
                     x:Name="Languages"
                     MinWidth="90"

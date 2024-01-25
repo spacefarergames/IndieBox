@@ -11,28 +11,28 @@
     xmlns:svm="clr-namespace:Gavilya.ViewModels.Settings"
     xmlns:viewmodels="clr-namespace:Gavilya.ViewModels"
     xmlns:views="clr-namespace:Gavilya.Views"
-    Title="{x:Static lang:Resources.MainWindowTitle}"
-    Width="1185"
-    Height="700"
-    MinWidth="840"
-    MinHeight="450"
+    Title="Indie Box"
+    Width="1280"
+    Height="720"
+    MinWidth="1280"
+    MinHeight="720"
     MaxWidth="{Binding MaxWidth}"
     MaxHeight="{Binding MaxHeight}"
     AllowsTransparency="True"
     Background="Transparent"
     WindowStartupLocation="CenterScreen"
     WindowStyle="None"
-    mc:Ignorable="d">
+    mc:Ignorable="d" Icon="/Assets/designnew.png">
     <WindowChrome.WindowChrome>
         <WindowChrome CaptionHeight="55" ResizeBorderThickness="10" />
     </WindowChrome.WindowChrome>
 
     <Window.Effect>
         <DropShadowEffect
-            BlurRadius="10"
-            Opacity="0.4"
+            BlurRadius="20"
+            Opacity="0.8"
             RenderingBias="Quality"
-            ShadowDepth="0"
+            ShadowDepth="5"
             Color="Black" />
     </Window.Effect>
 
@@ -68,11 +68,11 @@
                     <Image
                         x:Name="GavilyaLogo"
                         Grid.Column="1"
-                        Width="26"
-                        Height="26"
+                        Width="32"
+                        Height="32"
                         HorizontalAlignment="Left" 
                         VerticalAlignment="Center"
-                        Source="Assets/Gavilya.png" Grid.ColumnSpan="3" Margin="18,0,0,0">
+                        Source="/Assets/designnew.png" Grid.ColumnSpan="3" Margin="18,0,0,0">
                     </Image>
 
                     <Button
@@ -177,6 +177,7 @@
                         FontFamily="Fonts\#FluentSystemIcons-Regular"
                         FontSize="12"
                         Style="{StaticResource TitleBarCloseButtonStyle}" />
+                    <TextBlock Grid.Column="3" HorizontalAlignment="Left" Margin="64,0,0,0" TextWrapping="Wrap" Text="Indie Box" VerticalAlignment="Center" Foreground="White" FontSize="14"/>
                 </Grid>
             </Border>
             <Grid x:Name="ContentGrid" Grid.Row="1">
@@ -221,7 +222,7 @@
                                 <components:NavBarComponent />
                             </DataTemplate>
                         </Grid.Resources>
-                        <components:NavBarComponent />
+                        <components:NavBarComponent Loaded="NavBarComponent_Loaded" />
                     </Grid>
                 </Grid>
                 <Popup

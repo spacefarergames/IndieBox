@@ -62,9 +62,9 @@
                 Command="{Binding MigrateCommand}"
                 Cursor="Hand"
                 Foreground="{DynamicResource Foreground}"
-                Style="{StaticResource AccentButton}">
+                Style="{StaticResource AccentButton}" Visibility="Collapsed">
 
-                <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Horizontal" Visibility="Collapsed">
                     <TextBlock
                         VerticalAlignment="Center"
                         FontSize="12"

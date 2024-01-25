@@ -781,7 +781,7 @@ namespace Gavilya.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Favorites.
+        ///   Looks up a localized string similar to Indie Box Store.
         /// </summary>
         public static string Favorites {
             get {

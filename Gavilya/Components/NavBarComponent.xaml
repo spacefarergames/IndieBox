@@ -81,7 +81,6 @@
             Background="Transparent"
             BorderThickness="2 0 0 0"
             Command="{Binding FavoritesPageCommand}"
-            Content="&#xF719;"
             Cursor="Hand"
             FontFamily="..\Fonts\#FluentSystemIcons-Filled"
             FontSize="18"
@@ -94,6 +93,7 @@
                     Content="{x:Static lang:Resources.Favorites}"
                     Foreground="{DynamicResource Foreground}" />
             </RadioButton.ToolTip>
+            <Image Height="30" Width="40" Source="/Assets/designnew.png"/>
         </RadioButton>
         <RadioButton
             x:Name="RecentTabBtn"
