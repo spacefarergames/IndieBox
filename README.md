@@ -1,4 +1,4 @@
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/Leo-Corporation/Gavilya)
+![image](https://github.com/spacefarergames/IndieBox/assets/106384425/8df035cc-f6bc-4ee8-a9f6-6ff65311cece)![GitHub release (latest by date)](https://img.shields.io/github/v/release/Leo-Corporation/Gavilya)
 ![GitHub contributors](https://img.shields.io/github/contributors/Leo-Corporation/Gavilya)
 ![GitHub issues](https://img.shields.io/github/issues/Leo-Corporation/Gavilya)
 ![GitHub](https://img.shields.io/github/license/Leo-Corporation/Gavilya)
@@ -27,7 +27,7 @@
 </p>
 
 ## Introduction
-![image](https://github.com/Leo-Corporation/Gavilya/assets/55453279/e795c49c-604a-4de4-b8c8-a7d7652effad)
+![image](https://u93e46.n3cdn1.secureserver.net/wp-content/uploads/2024/01/IndieBoxBlurb-1024x381.png))
 
 
 Gavilya is a user-friendly game launcher built using C# and WPF, following the MVVM (Model-View-ViewModel) architectural pattern. The launcher aims to simplify the process of managing and launching games from various sources, providing an organized and personalized gaming experience.
