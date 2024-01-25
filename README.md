@@ -6,14 +6,14 @@
 ![Using PeyrSharp](https://img.shields.io/badge/using-PeyrSharp-DD00FF?logo=nuget)
 <br />
 <p align="center">
-  <a href="https://github.com/Leo-Corporation/Gavilya">
-    <img src=".github/images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://spacefarergames.com/indiebox">
+    <img src="https://u93e46.n3cdn1.secureserver.net/wp-content/uploads/2024/01/designnew.png" alt="Logo" width="80" height="80">
   </a>
 
   <h1 align="center">Gavilya</h3>
 
   <p align="center">
-    A simple game launcher written in C# .NET 6.
+    IndieBox is provided by Spacefarer R&D that allows you to download and manage games.
     <br />
     <a href="https://bit.ly/Gavilya"><strong>Download »</strong></a>
     <br />
