@@ -32,6 +32,12 @@ namespace Gavilya.Views;
 /// </summary>
 public partial class RecentPageView : UserControl
 {
+
+
+
+
+
+
 	public RecentPageView()
 	{
 		InitializeComponent();

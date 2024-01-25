@@ -78,6 +78,7 @@
     <PackageReference Include="PeyrSharp.Core" Version="1.10.0.2310" />
     <PackageReference Include="PeyrSharp.Env" Version="1.10.0.2310" />
     <PackageReference Include="RestSharp" Version="110.2.0" />
+    <PackageReference Include="WebView2.Runtime.X64" Version="120.0.2210.144" />
   </ItemGroup>
 
   <ItemGroup>
@@ -130,9 +131,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Properties\Resources.en-US.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Update="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
