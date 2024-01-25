@@ -22,6 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE. 
 */
 
+using System.Windows;
 using System.Windows.Controls;
 
 namespace Gavilya.Views;
@@ -35,4 +36,12 @@ public partial class RecentPageView : UserControl
 	{
 		InitializeComponent();
 	}
+    void OnClick1(object sender, RoutedEventArgs e)
+    {
+        MyWebView.GoBack();
+    }
+    void OnClick2(object sender, RoutedEventArgs e)
+    {
+        MyWebView.GoForward();
+    }
 }

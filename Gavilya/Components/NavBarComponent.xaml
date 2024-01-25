@@ -95,6 +95,7 @@
             </RadioButton.ToolTip>
             <Image Height="30" Width="40" Source="/Assets/shopping-bag-2-32.png"/>
         </RadioButton>
+
         <RadioButton
             x:Name="RecentTabBtn"
             Grid.Row="3"
@@ -105,19 +106,22 @@
             Background="Transparent"
             BorderThickness="2 0 0 0"
             Command="{Binding RecentPageCommand}"
-            Content="&#xF486;"
             Cursor="Hand"
             FontFamily="..\Fonts\#FluentSystemIcons-Filled"
             FontSize="18"
             Foreground="{DynamicResource Foreground}"
             IsChecked="{Binding IsRecent}"
             Style="{DynamicResource NavBarBtn}">
+
             <RadioButton.ToolTip>
                 <ToolTip
                     Background="{DynamicResource Background}"
-                    Content="{x:Static lang:Resources.RecentGames}"
+                    Content="Streaming"
                     Foreground="{DynamicResource Foreground}" />
+
             </RadioButton.ToolTip>
+            <Image Height="20" Width="36" Source="/Assets/pngaaa.com-2719114.png"/>
+
         </RadioButton>
         <RadioButton
             Grid.Row="4"

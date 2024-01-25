@@ -7,6 +7,7 @@
     xmlns:local="clr-namespace:Gavilya.Views"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:vm="clr-namespace:Gavilya.ViewModels"
+    xmlns:Wpf="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
     d:DesignHeight="450"
     d:DesignWidth="800"
     FontFamily="..\Fonts\#Hauora"
@@ -14,66 +15,16 @@
     mc:Ignorable="d">
 
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
-
-        <StackPanel
-            Grid.Row="0"
-            Margin="10"
-            Orientation="Horizontal">
-            <TextBlock
-                VerticalAlignment="Center"
-                FontFamily="..\Fonts\#FluentSystemIcons-Filled"
-                FontSize="18"
-                Text="&#xF486;" />
-            <TextBlock
-                Margin="10 0 0 0"
-                VerticalAlignment="Center"
-                FontSize="18"
-                FontWeight="ExtraBold"
-                Text="{x:Static lang:Resources.RecentGames}" />
-        </StackPanel>
-
-        <ItemsControl Grid.Row="1" ItemsSource="{Binding GameGroupViewModels}">
-            <ItemsControl.ItemTemplate>
-                <DataTemplate DataType="{x:Type vm:GameGroupViewModel}">
-                    <local:GameGroupView />
-                </DataTemplate>
-            </ItemsControl.ItemTemplate>
-            <ItemsControl.ItemsPanel>
-                <ItemsPanelTemplate>
-                    <StackPanel />
-                </ItemsPanelTemplate>
-            </ItemsControl.ItemsPanel>
-        </ItemsControl>
-
-        <StackPanel
-            x:Name="Placeholder"
-            Grid.Row="1"
-            HorizontalAlignment="Center"
-            VerticalAlignment="Center"
-            Visibility="{Binding PlaceholderVis}">
-            <Image
-                Width="400"
-                HorizontalAlignment="Center"
-                Source="..\Assets\addGamesWelcome.png" />
-            <TextBlock
-                HorizontalAlignment="Center"
-                FontWeight="Bold"
-                Foreground="{DynamicResource Foreground}"
-                Text="{x:Static lang:Resources.AddGameWelcome}" />
-            <Button
-                Margin="5"
-                Padding="5"
-                HorizontalAlignment="Center"
-                Background="{DynamicResource Background2}"
-                Command="{Binding AddCommand}"
-                Content="{x:Static lang:Resources.AddGame}"
-                Cursor="Hand"
-                FontWeight="Bold"
-                Style="{DynamicResource RegularButton}" />
-        </StackPanel>
+        <Wpf:WebView2 Name="MyWebView"  Source="https://spacefarergames.com/streamfromclient/" Margin="0,23,0,0"/>
+        <Button Content="&lt;" HorizontalAlignment="Left" Margin="10,-5,0,0" Click="OnClick1" VerticalAlignment="Top" Background="#00000000" Opacity="0.995" Foreground="White" FontSize="22">
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+        </Button>
+        <Button Content="&gt;" HorizontalAlignment="Left" Margin="33,-5,0,0" Click="OnClick2" VerticalAlignment="Top" Background="#00000000" Opacity="0.995" Foreground="White" FontSize="22">
+            <Button.BorderBrush>
+                <ImageBrush/>
+            </Button.BorderBrush>
+        </Button>
     </Grid>
 </UserControl>
