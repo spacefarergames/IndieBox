@@ -31,7 +31,7 @@ CUSTOM_DIRECTORY = "" # if left empty, use default directory, otherwise use your
 GAVILYA_LICENSE_INFO = """/*
 MIT License
 
-Copyright (c) Léo Corporation
+Copyright (c) Spacefarer R&D
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

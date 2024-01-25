@@ -46,28 +46,28 @@ public class CoverImageHelper
 	public async Task<string> Download()
 	{
 
-		if (!Directory.Exists(FileSys.AppDataPath + @"\Léo Corporation\Gavilya\Games")) // If the directory doesn't exist
+		if (!Directory.Exists(FileSys.AppDataPath + @"\Spacefarer\IndieBox\Games")) // If the directory doesn't exist
 		{
-			Directory.CreateDirectory(FileSys.AppDataPath + @"\Léo Corporation\Gavilya\Games"); // Create the direspctory
+			Directory.CreateDirectory(FileSys.AppDataPath + @"Spacefarer\IndieBox\Games"); // Create the direspctory
 		}
 
-		if (!Directory.Exists(FileSys.AppDataPath + @$"\Léo Corporation\Gavilya\games\{_gameId}")) // If the directory doesn't exist
+		if (!Directory.Exists(FileSys.AppDataPath + @$"\Spacefarer\IndieBox\games\{_gameId}")) // If the directory doesn't exist
 		{
-			Directory.CreateDirectory(FileSys.AppDataPath + $@"\Léo Corporation\Gavilya\Games\{_gameId}"); // Create the game directory
+			Directory.CreateDirectory(FileSys.AppDataPath + $@"\Spacefarer\IndieBox\Games\{_gameId}"); // Create the game directory
 		}
 		else
 		{
-			if (File.Exists(FileSys.AppDataPath + $@"\Léo Corporation\Gavilya\Games\{_gameId}\bg_img{_id}.jpg")) // If the image exist
+			if (File.Exists(FileSys.AppDataPath + $@"\Spacefarer\IndieBox\Games\{_gameId}\bg_img{_id}.jpg")) // If the image exist
 			{
-				File.Delete(FileSys.AppDataPath + $@"\Léo Corporation\Gavilya\Games\{_gameId}\bg_img{_id}.jpg");
+				File.Delete(FileSys.AppDataPath + $@"\Spacefarer\IndieBox\Games\{_gameId}\bg_img{_id}.jpg");
 			}
 
-			await DownloadFileAsync(new Uri(_url), FileSys.AppDataPath + $@"\Léo Corporation\Gavilya\Games\{_gameId}\bg_img{_id}.jpg"); // Download the image
-			return FileSys.AppDataPath + @$"\Léo Corporation\Gavilya\Games\{_gameId}\bg_img{_id}.jpg"; // Return the result
+			await DownloadFileAsync(new Uri(_url), FileSys.AppDataPath + $@"\Spacefarer\IndieBox\Games\{_gameId}\bg_img{_id}.jpg"); // Download the image
+			return FileSys.AppDataPath + @$"\Spacefarer\IndieBox\Games\{_gameId}\bg_img{_id}.jpg"; // Return the result
 		}
 
-		await DownloadFileAsync(new Uri(_url), FileSys.AppDataPath + $@"\Léo Corporation\Gavilya\Games\{_gameId}\bg_img{_id}.jpg"); // Download the image
-		return FileSys.AppDataPath + @$"\Léo Corporation\Gavilya\Games\{_gameId}\bg_img{_id}.jpg"; // Return the path
+		await DownloadFileAsync(new Uri(_url), FileSys.AppDataPath + $@"\Spacefarer\IndieBox\Games\{_gameId}\bg_img{_id}.jpg"); // Download the image
+		return FileSys.AppDataPath + @$"\Spacefarer\IndieBox\Games\{_gameId}\bg_img{_id}.jpg"; // Return the path
 	}
 
 	private static async Task DownloadFileAsync(Uri uri, string filePath)

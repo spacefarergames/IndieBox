@@ -61,7 +61,7 @@ public class LanguageViewModel : ViewModelBase
 		_profileData.Save();
 		if (MessageBox.Show(Properties.Resources.GavilyaNeedsRestartChanges, Properties.Resources.MainWindowTitle, MessageBoxButton.YesNoCancel, MessageBoxImage.Question) == MessageBoxResult.Yes)
 		{
-			Process.Start(Directory.GetCurrentDirectory() + @"\Gavilya.exe");
+			Process.Start(Directory.GetCurrentDirectory() + @"\IndieBox.exe");
 			Environment.Exit(0);
 		}
 	}

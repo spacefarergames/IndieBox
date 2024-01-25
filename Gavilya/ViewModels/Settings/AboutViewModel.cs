@@ -81,7 +81,7 @@ public class AboutViewModel : ViewModelBase
 				}
 
 				_profileData.Save();
-				Sys.ExecuteAsAdmin(Directory.GetCurrentDirectory() + @"\Xalyus Updater.exe"); // Start the updater
+				//Sys.ExecuteAsAdmin(Directory.GetCurrentDirectory() + @"\Xalyus Updater.exe"); // Start the updater
 				Application.Current.Shutdown(); // Close
 			}
 
@@ -103,6 +103,6 @@ public class AboutViewModel : ViewModelBase
 
 	private void OpenRepo(object? obj)
 	{
-		Process.Start("explorer.exe", "https://github.com/Leo-Corporation/Gavilya"); // Open the GitHub repository in the default browser
+		Process.Start("explorer.exe", "https://github.com/spacefarergames/IndieBox/"); // Open the GitHub repository in the default browser
 	}
 }

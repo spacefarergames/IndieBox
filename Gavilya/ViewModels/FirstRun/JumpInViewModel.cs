@@ -47,7 +47,7 @@ public class JumpInViewModel : ViewModelBase
 			_profileData.Profiles[_profileData.Profiles.IndexOf(_profile)].Settings.IsFirstRun = false;
 			_profileData.Save();
 
-			Process.Start(FileSys.CurrentAppDirectory + @"\Gavilya.exe");
+			Process.Start(FileSys.CurrentAppDirectory + @"\IndieBox.exe");
 			Application.Current.Shutdown(0);
 		});
 	}

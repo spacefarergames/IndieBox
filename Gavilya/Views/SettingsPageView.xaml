@@ -347,11 +347,11 @@
                     FontWeight="ExtraBold"
                     Foreground="{DynamicResource Foreground}"
                     GroupName="SettingsNavBar"
-                    Style="{DynamicResource NavBarBtn}">
+                    Style="{DynamicResource NavBarBtn}" Visibility="Collapsed">
                     <StackPanel
                         HorizontalAlignment="Stretch"
                         VerticalAlignment="Center"
-                        Orientation="Horizontal">
+                        Orientation="Horizontal" Visibility="Collapsed">
                         <TextBlock
                             Margin="0 0 10 0"
                             VerticalAlignment="Center"

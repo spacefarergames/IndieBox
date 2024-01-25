@@ -124,7 +124,7 @@
     <value>Your Games</value>
   </data>
   <data name="MainWindowTitle" xml:space="preserve">
-    <value>Gavilya</value>
+    <value>Indie Box</value>
   </data>
   <data name="Add" xml:space="preserve">
     <value>Add</value>
@@ -166,7 +166,7 @@
     <value>About</value>
   </data>
   <data name="AppName" xml:space="preserve">
-    <value>Gavilya</value>
+    <value>Indie Box</value>
   </data>
   <data name="CheckForUpdates" xml:space="preserve">
     <value>Check updates</value>
@@ -181,7 +181,7 @@
     <value>No updates available</value>
   </data>
   <data name="UpdateAvMessage" xml:space="preserve">
-    <value>Updates are available for Gavilya:</value>
+    <value>Updates are available for Indie Box</value>
   </data>
   <data name="UpdateVersion" xml:space="preserve">
     <value>Version:</value>
@@ -199,7 +199,7 @@
     <value>Close</value>
   </data>
   <data name="XUDoesNotExist" xml:space="preserve">
-    <value>Xalyus Updater doesn't exist, please reinstall Gavilya.</value>
+    <value>Xalyus Updater doesn't exist, please reinstall Indie Box</value>
   </data>
   <data name="CoverSearch" xml:space="preserve">
     <value>Search for a game cover</value>
@@ -295,10 +295,10 @@
     <value>Import your games</value>
   </data>
   <data name="ExportGamesDescription" xml:space="preserve">
-    <value>Export your games in Gavilya to .gav save file.</value>
+    <value>Export your games in Indie Box to .gav save file.</value>
   </data>
   <data name="ImportGamesDescription" xml:space="preserve">
-    <value>Import a .gav save file in Gavilya. The current save file is going to be replaced by the new one.</value>
+    <value>Import a .gav save file in Indie Box. The current save file is going to be replaced by the new one.</value>
   </data>
   <data name="Export" xml:space="preserve">
     <value>Export</value>
@@ -331,7 +331,7 @@
     <value>Languages</value>
   </data>
   <data name="ChangeLanguageDescription" xml:space="preserve">
-    <value>Change Gavilya's current language.</value>
+    <value>Change Indie Box current language.</value>
   </data>
   <data name="Default" xml:space="preserve">
     <value>Default</value>
@@ -370,7 +370,7 @@
     <value>The process to look for when the game is running. It allows the possibility to count the time you played the game. Keep the field empty to use the default executable.</value>
   </data>
   <data name="Welcome" xml:space="preserve">
-    <value>Welcome to Gavilya</value>
+    <value>Welcome to Indie Box</value>
   </data>
   <data name="GameGathered" xml:space="preserve">
     <value>Where all your games are gathered.</value>
@@ -394,7 +394,7 @@
     <value>RAWG Database integration</value>
   </data>
   <data name="RAWGDescriptionFirstRun" xml:space="preserve">
-    <value>Gavilya is integrated with the RAWG.io database, which means that Gavilya can automatically find covers, descriptions, and other informations about a game.</value>
+    <value>Gavilya is integrated with the RAWG.io database, which means that Indie Box can automatically find covers, descriptions, and other informations about a game.</value>
   </data>
   <data name="ImportGamesFirstRunDescription" xml:space="preserve">
     <value>If you were a previous user, you may wanna import an existing ".gav" save file.</value>
@@ -403,7 +403,7 @@
     <value>Done!</value>
   </data>
   <data name="ReadyFirstRun" xml:space="preserve">
-    <value>You are now ready to use Gavilya.</value>
+    <value>You are now ready to use Indie Box.</value>
   </data>
   <data name="LetsGo" xml:space="preserve">
     <value>Let's go!</value>
@@ -499,7 +499,7 @@
     <value>This game has no achievements.</value>
   </data>
   <data name="NoAchivementsMsg" xml:space="preserve">
-    <value>Gavilya hasn't found any achievements in the RAWG.io database, or this game is not associated with RAWG.</value>
+    <value>Indie Box hasn't found any achievements in the RAWG.io database, or this game is not associated with RAWG.</value>
   </data>
   <data name="Reset" xml:space="preserve">
     <value>Reset</value>
@@ -604,7 +604,7 @@
     <value>Not associated</value>
   </data>
   <data name="UpdateAvMessageNotify" xml:space="preserve">
-    <value>Updates are available for Gavilya.</value>
+    <value>Updates are available for Indie Box</value>
   </data>
   <data name="Back" xml:space="preserve">
     <value>Back</value>
@@ -679,7 +679,7 @@
     <value>Default view mode in Library</value>
   </data>
   <data name="PopupMenu" xml:space="preserve">
-    <value>Gavilya - Menu</value>
+    <value>Indie Box - Menu</value>
   </data>
   <data name="DefaultPage" xml:space="preserve">
     <value>Default page</value>
@@ -703,7 +703,7 @@
     <value>Are you sure you want to reset ALL settings? This operation is irreversible.</value>
   </data>
   <data name="GavilyaNeedsRestartChanges" xml:space="preserve">
-    <value>Gavilya needs to restart to apply changes.</value>
+    <value>Indie Box needs to restart to apply changes.</value>
   </data>
   <data name="TheStart" xml:space="preserve">
     <value>The Start</value>
@@ -976,7 +976,7 @@
     <value>Themes</value>
   </data>
   <data name="ThemesDesc" xml:space="preserve">
-    <value>Set the theme of Gavilya.</value>
+    <value>Set the theme of Indie Box</value>
   </data>
   <data name="ThemesImport" xml:space="preserve">
     <value>Import a theme</value>

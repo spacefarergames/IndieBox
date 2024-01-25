@@ -268,7 +268,7 @@ namespace Gavilya.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Gavilya.
+        ///   Looks up a localized string similar to Indie Box.
         /// </summary>
         public static string AppName {
             get {
@@ -403,7 +403,7 @@ namespace Gavilya.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Change Gavilya&apos;s current language..
+        ///   Looks up a localized string similar to Change Indie Box current language..
         /// </summary>
         public static string ChangeLanguageDescription {
             get {
@@ -754,7 +754,7 @@ namespace Gavilya.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Export your games in Gavilya to .gav save file..
+        ///   Looks up a localized string similar to Export your games in Indie Box to .gav save file..
         /// </summary>
         public static string ExportGamesDescription {
             get {
@@ -970,7 +970,7 @@ namespace Gavilya.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Gavilya needs to restart to apply changes..
+        ///   Looks up a localized string similar to Indie Box needs to restart to apply changes..
         /// </summary>
         public static string GavilyaNeedsRestartChanges {
             get {
@@ -1159,7 +1159,7 @@ namespace Gavilya.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Import a .gav save file in Gavilya. The current save file is going to be replaced by the new one..
+        ///   Looks up a localized string similar to Import a .gav save file in Indie Box. The current save file is going to be replaced by the new one..
         /// </summary>
         public static string ImportGamesDescription {
             get {
@@ -1357,7 +1357,7 @@ namespace Gavilya.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Gavilya.
+        ///   Looks up a localized string similar to Indie Box.
         /// </summary>
         public static string MainWindowTitle {
             get {
@@ -1555,7 +1555,7 @@ namespace Gavilya.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Gavilya hasn&apos;t found any achievements in the RAWG.io database, or this game is not associated with RAWG..
+        ///   Looks up a localized string similar to Indie Box hasn&apos;t found any achievements in the RAWG.io database, or this game is not associated with RAWG..
         /// </summary>
         public static string NoAchivementsMsg {
             get {
@@ -1879,7 +1879,7 @@ namespace Gavilya.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Gavilya - Menu.
+        ///   Looks up a localized string similar to Indie Box - Menu.
         /// </summary>
         public static string PopupMenu {
             get {
@@ -1951,7 +1951,7 @@ namespace Gavilya.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Gavilya is integrated with the RAWG.io database, which means that Gavilya can automatically find covers, descriptions, and other informations about a game..
+        ///   Looks up a localized string similar to Gavilya is integrated with the RAWG.io database, which means that Indie Box can automatically find covers, descriptions, and other informations about a game..
         /// </summary>
         public static string RAWGDescriptionFirstRun {
             get {
@@ -1987,7 +1987,7 @@ namespace Gavilya.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to You are now ready to use Gavilya..
+        ///   Looks up a localized string similar to You are now ready to use Indie Box..
         /// </summary>
         public static string ReadyFirstRun {
             get {
@@ -2572,7 +2572,7 @@ namespace Gavilya.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Set the theme of Gavilya..
+        ///   Looks up a localized string similar to Set the theme of Indie Box.
         /// </summary>
         public static string ThemesDesc {
             get {
@@ -2698,7 +2698,7 @@ namespace Gavilya.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Updates are available for Gavilya:.
+        ///   Looks up a localized string similar to Updates are available for Indie Box.
         /// </summary>
         public static string UpdateAvMessage {
             get {
@@ -2707,7 +2707,7 @@ namespace Gavilya.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Updates are available for Gavilya..
+        ///   Looks up a localized string similar to Updates are available for Indie Box.
         /// </summary>
         public static string UpdateAvMessageNotify {
             get {
@@ -2752,7 +2752,7 @@ namespace Gavilya.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Welcome to Gavilya.
+        ///   Looks up a localized string similar to Welcome to Indie Box.
         /// </summary>
         public static string Welcome {
             get {
@@ -2779,7 +2779,7 @@ namespace Gavilya.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Xalyus Updater doesn&apos;t exist, please reinstall Gavilya..
+        ///   Looks up a localized string similar to Xalyus Updater doesn&apos;t exist, please reinstall Indie Box.
         /// </summary>
         public static string XUDoesNotExist {
             get {

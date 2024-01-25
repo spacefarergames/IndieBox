@@ -34,7 +34,7 @@
                 Width="201"
                 Source="/Assets/designnew.png" Height="199" />
             <TextBlock
-                FontSize="17"
+                FontSize="24"
                 FontWeight="ExtraBold"
                 Foreground="{DynamicResource Foreground}"
                 Text="Indie Box"
@@ -103,6 +103,11 @@
                     </Button.ToolTip>
                 </Button>
             </StackPanel>
+            <TextBlock
+                FontSize="17"
+                Foreground="{DynamicResource Foreground}"
+                Text="Copyright © 2024 Spacefarer R&amp;D Ltd. MIT License."
+                TextAlignment="Center" />
         </StackPanel>
     </Grid>
 </UserControl>

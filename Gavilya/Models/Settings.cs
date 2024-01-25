@@ -109,7 +109,7 @@ public class Settings
 		IsMaximized = false;
 		MakeAutoSave = true;
 		AutoSaveDay = 1;
-		SavePath = $@"{FileSys.AppDataPath}\Léo Corporation\Gavilya\Backups";
+		SavePath = $@"{FileSys.AppDataPath}\Spacefarer\IndieBox\Backups";
 		MaxNumberRecentGamesShown = 4;
 		NumberOfSearchResultsToDisplay = 3;
 		FpsCounterOpacity = 1;

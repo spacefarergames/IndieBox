@@ -37,19 +37,19 @@ public class ProfileData
 	{
 		XmlSerializer xmlSerializer = new(GetType());
 
-		if (!Directory.Exists($@"{FileSys.AppDataPath}\Léo Corporation\Gavilya")) // If the directory doesn't exist
+		if (!Directory.Exists($@"{FileSys.AppDataPath}\Spacefarer\IndieBox")) // If the directory doesn't exist
 		{
-			Directory.CreateDirectory($@"{FileSys.AppDataPath}\Léo Corporation\Gavilya"); // Create the directory
+			Directory.CreateDirectory($@"{FileSys.AppDataPath}\Spacefarer\IndieBox"); // Create the directory
 		}
 
-		StreamWriter streamWriter = new($@"{FileSys.AppDataPath}\Léo Corporation\Gavilya\Profiles.g4v");
+		StreamWriter streamWriter = new($@"{FileSys.AppDataPath}\Spacefarer\IndieBox\Profiles.g4v");
 		xmlSerializer.Serialize(streamWriter, this);
 		streamWriter.Dispose();
 	}
 
 	public void Load()
 	{
-		if (!File.Exists($@"{FileSys.AppDataPath}\Léo Corporation\Gavilya\Profiles.g4v"))
+		if (!File.Exists($@"{FileSys.AppDataPath}\Spacefarer\IndieBox\Profiles.g4v"))
 		{
 			Profiles = new()
 			{
@@ -63,7 +63,7 @@ public class ProfileData
 		}
 
 		XmlSerializer xmlSerializer = new(GetType());
-		StreamReader streamReader = new($@"{FileSys.AppDataPath}\Léo Corporation\Gavilya\Profiles.g4v");
+		StreamReader streamReader = new($@"{FileSys.AppDataPath}\Spacefarer\IndieBox\Profiles.g4v");
 		ProfileData loadedProfiles = (ProfileData)xmlSerializer.Deserialize(streamReader) ?? new();
 
 		Profiles = loadedProfiles.Profiles;

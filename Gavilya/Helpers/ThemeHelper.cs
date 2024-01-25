@@ -54,7 +54,7 @@ public class ThemeHelper
 	/// <returns>The installed themes</returns>
 	public static List<(ThemeInfo, string)> GetInstalledThemes()
 	{
-		string themePath = $@"{FileSys.AppDataPath}\Léo Corporation\Gavilya\Themes\";
+		string themePath = $@"{FileSys.AppDataPath}\Spacefarer\IndieBox\Themes\";
 
 		// If there is no themes
 		if (!Directory.Exists(themePath))
@@ -98,7 +98,7 @@ public class ThemeHelper
 	public static void InstallTheme(string path)
 	{
 		string guid = GuidGen.Generate(new GuidOptions(32, false, false, false));
-		ZipFile.ExtractToDirectory(path, $@"{FileSys.AppDataPath}\Léo Corporation\Gavilya\Themes\{guid}");
+		ZipFile.ExtractToDirectory(path, $@"{FileSys.AppDataPath}\Spacefarer\IndieBox\Themes\{guid}");
 	}
 
 	public static ThemeInfo GetThemeFromPath(string path)
