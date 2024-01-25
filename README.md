@@ -16,13 +16,12 @@
     IndieBox is provided by Spacefarer R&D that allows you to download and manage games.
     It's core game library and management functionality is forked from Gavilya, a MIT licensed software. Indie Box adds the Spacefarer Store, Streaming service, download service, account management service, and the submission tool for Indie Game Devs.
     <br />
-    <a href="https://bit.ly/Gavilya"><strong>Download »</strong></a>
     <br />
   </p>
 </p>
 
 ## Introduction
-![image](https://u93e46.n3cdn1.secureserver.net/wp-content/uploads/2024/01/IndieBoxBlurb-1024x381.png))
+![image](https://u93e46.n3cdn1.secureserver.net/wp-content/uploads/2024/01/IndieBoxBlurb-1024x381.png)
 
 
 Indie Box is a user-friendly game launcher / game streaming / store / download app that provides an all in once location for indie games and other titles.
